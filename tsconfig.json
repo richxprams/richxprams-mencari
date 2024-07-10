@@ -1,0 +1,17 @@
+{
+  "extends": "./tsconfig-lib.json",
+  "compilerOptions": {
+    "emitDeclarationOnly": false
+  },
+  "include": [
+    "src/**/*",
+    "tests/**/*",
+    "demo/**/*",
+    /* needed for eslint to work for some reason ¯\_(ツ)_/¯ */
+    "tests/**/.eslintrc.js",
+    "rollup.config.js",
+    "build-config.js",
+    "lint-staged.config.js",
+    "scripts/**/*"
+  ]
+}

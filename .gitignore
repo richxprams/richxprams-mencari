@@ -1,0 +1,48 @@
+# MacOS
+.DS_Store
+
+# npm
+node_modules/*
+npm-debug.log
+bower_components/*
+
+# NYC
+.nyc_output/
+
+# Coverage
+coverage/
+
+# JetBrains
+.idea/*
+
+# Build
+/lib
+/dist
+/dist.zip
+/cloudflare-pages
+/api-docs
+/api-docs-markdown
+/karma-temp
+
+# eslint
+.eslintcache
+/cache.tsbuildinfo
+
+# Visual Studio exclusions
+*.suo
+*.user
+.vs/
+bin/
+obj/
+Generated\ Files/
+
+/web.config
+/vwd.webinfo
+
+# ReSharper is a .NET coding add-in
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# VSCode custom workspace settings
+.vscode/settings.json
